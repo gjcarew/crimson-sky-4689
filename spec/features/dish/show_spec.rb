@@ -38,6 +38,5 @@ RSpec.describe 'Dish show page' do
       visit dish_path(@dish)
       expect(page).to have_content(@dish.calories)
     end
-
   end
 end
